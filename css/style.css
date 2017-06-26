@@ -66,7 +66,7 @@ header > h2 {
 }
 
 .banner > h3 {
-  padding-top: 1.2rem;
+  padding-top: 1.5rem;
 }
 
 .banner > h3 > a, .banner > h3 > a:hover, .banner > h3 > a:visited {
@@ -80,10 +80,14 @@ header > h2 {
 
 .btn1 {
   color: white;
-  border: 1px solid #000;
+  border: 1px solid #FFF;
   background-color: transparent;
   padding: 1rem;
   margin-top: 0.5rem;
+}
+
+#ctm-mobile {
+  width: 60%;
 }
 
 .container {
@@ -97,10 +101,19 @@ header > h2 {
   padding-top: 1.5rem;*/
   background-color: grey;
   /*max-width: 315px;*/
+  color: #FFF;
+}
+
+.card-text {
+  padding-bottom: 1.5rem;
 }
 
 .card-img-top {
   padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.6rem;
 }
 
 @media only screen and (max-width: 576px) {
