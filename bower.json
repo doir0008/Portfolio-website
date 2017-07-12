@@ -17,6 +17,7 @@
   "dependencies": {
     "bootstrap": "v4.0.0-alpha.6",
     "Snap.svg": "snap.svg#^0.5.1",
-    "components-font-awesome": "^4.7.0"
+    "components-font-awesome": "^4.7.0",
+    "hammerjs": "hammer.js#^2.0.8"
   }
 }
