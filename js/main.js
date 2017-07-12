@@ -196,18 +196,17 @@ $(document).ready(function ($) {
     //var myElement = $(".cd-radial-slider-wrapper");
     //var myElement = document.getElementById('myElement');
     // create a simple instance
-    // by default, it only adds horizontal recognizers
     var mc = new Hammer(myElement);
 
     // listen to events...
     mc.on("swipeleft", function(ev) {
         //myElement.textContent = ev.type +" gesture detected.";
-        $('.prev').trigger("click");
+        $('.next').trigger("click");
         console.log("swipeleft");
     });
     mc.on("swiperight", function(ev) {
         //myElement.textContent = ev.type +" gesture detected.";
-        $('.next').trigger("click");
+        $('.prev').trigger("click");
         console.log("swiperight");
     });
 });
